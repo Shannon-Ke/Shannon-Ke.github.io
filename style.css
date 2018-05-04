@@ -1,0 +1,19 @@
+.page-nav-zone {
+	position: absolute;
+	top:0;
+	right:0;
+	width: 54px;
+	height: 100%;
+}
+.page-nav-zone .page-nav-wrapper {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 274px;
+    height: 100%;
+    overflow: hidden;
+    -webkit-transform: translate3d(-54px,0,0);
+    transform: translate3d(-54px,0,0);
+    -webkit-transition: -webkit-transform 500ms cubic-bezier(.215,.61,.355,1);
+    transition: transform 500ms cubic-bezier(.215,.61,.355,1);
+}
