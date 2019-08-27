@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Font Awesome Styles -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- w3 schools CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+
+    <title>Shannon Ke</title>
+  </head>
+
+  <body>
+      <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar" id="myNavbar">
+        <a href="index.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-home"></i> HOME</a>
+        <a href="portfolio.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+        <a href="contact.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+        </a>
+      </div>
+
+      <!-- Navbar on small screens -->
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a href="index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+        <a href="portfolio.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+        <a href="contact.html" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+      </div>
+    </div>
+
+    <!-- Welcome message area start -->
+    <div class="portfolioWelcomeBox">
+        <div class="welcomeItem">
+            <img class="introImage" src="assets/Projects.png">
+            <h1 class="welcomeTitle">Here are projects I've been working hard on!</h1>
+        </div>
+    </div>
+
+    <!-- WOrk portfolio start -->
+    <div class="portfolioHeader">
+        <div class="portfolioTitle">
+            <h1>Work Projects</h1>
+        </div>
+        <div class="portfolioDescription">
+            I completed these projects while interning at Manhattan Associates, a supply chain company. 
+        </div>
+    </div>
+
+    <div class="projectContainer">
+        <div class="project">
+            <img class="projectImage" src="assets/1config.png">
+            <div class="projectText">
+                <h2>Configuration Director</h2>
+                Designed in Sketch and prototyped with Marvel, this is a company internal application designed like "supply chain version control."
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projectContainer">
+        <div class="project">
+            <img class="projectImage" src="assets/2Nav.png">
+            <div class="projectText">
+                <h2>Demand Forecast Inventory Optimization</h2>
+                This project involved reskinning and existing application originally built twenty years ago so that it follows modern design principles and is pixel perfect.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projectContainer">
+        <div class="project">
+            <img class="projectImage" src="assets/3sc2020.png">
+            <div class="projectText">
+                <h2>DC Network Manager Dashboard</h2>
+                Designed and prototyped in Adobe Xd, then developed using HTML,CSS, and D3.js, this dashboard is meant to show meaningful data visualizations that can help the user narrow in on network problems.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projectContainer">
+        <div class="project">
+            <img class="projectImage" src="assets/4vr.png">
+            <div class="projectText">
+                <h2>Warehouse AR/VR</h2>
+                Built in Unity, this project provides multiple warehouse simulations where an augmented reality heads up display can improve worker and manager efficiency.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Personal portfolio start -->
+    <div class="portfolioHeader">
+        <div class="portfolioTitle">
+            <h1>Personal Projects</h1>
+        </div>
+        <div class="portfolioDescription">
+            I completed these projects on my free time or during hackathons! 
+        </div>
+    </div>
+
+    <div class="projectContainer">
+        <div class="project">
+            <img class="projectImage" src="assets/5google.png">
+            <div class="projectText">
+                <h2>OrgFinder</h2>
+                Designed as part of a Google UX exercise, this simple app helps university students find campus organizations to join and keep up with.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projectContainer">
+        <div class="project">
+            <img class="projectImage" src="assets/6yeji.png">
+            <div class="projectText">
+                <h2>Yeji</h2>
+                Lovingly named after a good friend, Yeji is a Gameboy Advance game written in C and illustrated in Microsoft Paint and Paint Tool Sai.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projectContainer">
+        <div class="project">
+            <img class="projectImage" src="assets/7bee.png">
+            <div class="projectText">
+                <h2>BeeKeeperGO</h2>
+                A fun little garden-themed game built in Unity designed to crowdsource bee and pollinating plant data. 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projectContainer">
+        <div class="project">
+            <img class="projectImage" src="assets/8art.png">
+            <div class="projectText">
+                <h2>Freelance Illustrations and Design</h2>
+                For many years, I have taken illustration and design commissions. Here is a simple quick look at some of my freelance work.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projectContainer">
+        <div class="project">
+            <img class="projectImage" src="assets/9website.png">
+            <div class="projectText">
+                <h2>Personal Website</h2>
+                Website-ception! How I designed and built this website from scratch!
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

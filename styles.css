@@ -1,0 +1,228 @@
+:root {
+	--home-pink: #FFA2A2;
+	--project-blue: #43B8FF;
+	--contact-purple: #B56BCB;
+	--project-blue-hover: #338CC3;
+}
+
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    line-height: 2em;
+}
+
+h1 {
+	font-weight: bold;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 48px;
+	color: white;
+}
+
+h2 {
+	font-weight: bold;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 36px;
+}
+
+.welcomeBox {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	height: 700px;
+	margin: 4rem auto;
+	background-color: var(--home-pink);
+	border-radius: 8px;
+}
+
+.introImage {
+	width: 425px;
+}
+
+.welcomeImage {
+	height: 80%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcomeTitle {
+	text-align: center;
+	margin-right: 5rem;
+}
+
+.welcomeItem {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10rem 5rem;
+}
+
+.introBox {
+	margin: 5rem auto;
+}
+
+.introItem {
+	align-items: flex-start !important;
+}
+
+.introText {
+	width: 500px;
+	color: var(--home-pink);
+	margin: 0 5rem;
+}
+
+.projectButton {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+	width: 350px;
+	height: 100px;
+	margin: 10rem auto;
+	text-align: center;
+	background-color: var(--project-blue);
+	border-radius: 8px;
+	font-size: 24px;
+	color: white;
+}
+
+.projectButton:hover {
+	cursor: pointer;
+	background-color: var(--project-blue-hover);
+}
+
+/* Portfolio page styles */
+
+.portfolioWelcomeBox {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	height: 700px;
+	margin: 4rem auto;
+	background-color: var(--project-blue);
+	border-radius: 8px;
+}
+
+.portfolioHeader {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.portfolioTitle {
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+	width: 600px;
+	height: 100px;
+	margin: 5rem auto;
+	text-align: center;
+	background-color: var(--project-blue);
+	border-radius: 8px;
+	font-size: 24px;
+	color: white;
+}
+
+.portfolioDescription {
+	color: var(--project-blue);
+	width: 500px;
+	margin: 5rem auto;
+}
+
+.projectContainer {
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+	border-color: var(--project-blue);
+	color: var(--project-blue);
+	border-width: 3px;
+	border-style: solid;
+	margin: 2rem 10rem;
+	box-shadow: 3px 3px 8px var(--project-blue-hover);
+	transition: background-color .2s;
+}
+
+.project:hover {
+	cursor: pointer;
+	background-color: var(--project-blue);
+	color: white;
+}
+
+.projectImage {
+	margin: 0.5rem;
+	margin-right: 3rem;
+	width:50%;
+}
+
+.projectText {
+	margin: auto;
+	margin-right: 3rem;
+}
+
+/* Contact page styles */
+
+.contactBox {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	height: 700px;
+	margin: 4rem auto;
+	background-color: var(--contact-purple);
+	border-radius: 8px;
+}
+
+.contactWrapper {
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+.mediaWrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+
+.mediaButton {
+	width: 75px;
+	margin: 1rem;
+	transition: transform .2s;
+}
+
+.mediaButton:hover {
+	cursor: pointer;
+	transform: scale(1.5);
+}
+
+.emailButton {
+	width: 75px;
+	margin: 1rem;
+}
+
+.contactTitle {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.footerText {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+	color: var(--contact-purple);
+	margin: 5rem;
+}
