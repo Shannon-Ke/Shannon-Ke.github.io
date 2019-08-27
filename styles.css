@@ -226,3 +226,13 @@ h2 {
 	color: var(--contact-purple);
 	margin: 5rem;
 }
+
+.tempText {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+	color: black;
+	margin: 5rem;
+	font-size: 36px;
+}
