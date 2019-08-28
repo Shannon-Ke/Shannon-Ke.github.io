@@ -283,6 +283,11 @@ h2 {
 		margin: 1rem;
 		text-align: center;
 	}
+	.projectImage {
+		margin:auto;
+		margin-top: 1rem;
+		width:75%;
+	}
 }
 
 @media (max-width: 768px) {
