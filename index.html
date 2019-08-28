@@ -20,24 +20,27 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
 
     <title>Shannon Ke</title>
+    <link rel="shortcut icon" href="assets/logo.ico" type="image/x-icon"/>
   </head>
 
   <body>
       <!-- Navbar (sit on top) -->
     <div class="w3-top">
       <div class="w3-bar" id="myNavbar">
-        <a href="index.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-home"></i> HOME</a>
-        <a href="portfolio.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
-        <a href="contact.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+        <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
+        <a href="portfolio.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PORTFOLIO</a>
+        <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
         </a>
       </div>
 
       <!-- Navbar on small screens -->
+
       <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
         <a href="index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
         <a href="portfolio.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
         <a href="contact.html" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
       </div>
+
     </div>
 
     <!-- Welcome message area start -->
@@ -51,7 +54,7 @@
     <!-- Intro blurb area start -->
     <div class="introBox">
         <div class="welcomeItem introItem">
-            <img src="assets/Me.png">
+            <img class="me" src="assets/Me.png">
             <div class="introText">
                 <p>I am currently a fourth year undergraduate student at the Georgia Institute of Technology, pursuing a Bachelor’s degree in Computer Science. My focus lies in machine learning and media development, while my hobbies lie in the arts and game development.</p>
                 <p>My professional career has focused on UX research and design at Manhattan Associates, where I learned a ton about critical design principles and heuristics. I live by the grid now!</p>
