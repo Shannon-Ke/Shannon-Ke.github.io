@@ -272,7 +272,7 @@ h2 {
 	color: white;
 }
 .projectIntroText {
-	font-size: 30px;
+	font-size: 24px;
 	text-align: left;
 }
 .projectPageText {
@@ -283,7 +283,7 @@ h2 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 90%;
+	width: 70%;
 	height: 300px;
 	margin: 4rem auto;
 	border-radius: 8px;
@@ -302,7 +302,7 @@ h2 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 80%;
+	width: 70%;
 	height: auto;
 	margin: 4rem auto;
 	border-radius: 8px;
