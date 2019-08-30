@@ -261,11 +261,11 @@ h2 {
 .projectAsset {
 	height: 800px;
 	opacity: 0.5;
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
-    filter: blur(2px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
 }
 .videoMessage {position: absolute;}
 .disclaimer {
