@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Font Awesome Styles -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- w3 schools CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+
+    <title>Shannon Ke</title>
+    <link rel="shortcut icon" href="../assets/logo.ico" type="image/x-icon"/>
+  </head>
+
+  <body>
+      <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar" id="myNavbar">
+        <a href="../index.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
+        <a href="../portfolio.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PORTFOLIO</a>
+        <a href="../contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+        </a>
+      </div>
+
+      <!-- Navbar on small screens -->
+
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a href="../index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+        <a href="../portfolio.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+        <a href="../contact.html" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+      </div>
+
+    </div>
+
+    <!-- Welcome message area start -->
+    <div class="projectBox">
+        <div class="videoBlock">
+            <video class="projectAsset" autoplay muted loop id="myVideo">
+                      <source src="../assets/DFIO_video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="videoMessage">
+            <h1 class="welcomeTitle">Demand Forecast <br> Inventory Optimization</h1>
+            <div class="disclaimer">*All material belongs to Manhattan Associates, thus I have omitted high fidelity screenshots.</div>
+        </div>
+    </div>
+
+    <!-- Intro blurb area start -->
+    <div class="introBox">
+        <div class="welcomeItem introItem">
+            <h1 class="welcomeTitle projectIntroText projectPageText">Introduction</h1>
+            <div class="introText projectPageText">
+                <p>This Manhattan product helps retail companies plan and forecast their inventory. There is more than meets the eye that goes into this process, with countless numbers to crunch and data to process. As such, those tasked with handling figuring out how much to order and process to keep their inventory stocked optimally benefit from software that can help them manage their decisions. This is where the demand forecast inventory optimization product, or DFIO, comes into play.</p>
+                <p>This product was pre-existing and had quite an old-fashioned design. I was tasked with “modernizing” its look, essentially re-skinning and relocating items on the page in a sensible fashion. The clutter of information makes it difficult for new users to onboard, but old users are so used to the layout that totally rearranging items would make them lose efficiency in an industry where each second spent on a screen counts. That brings me to my main goal.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="projectCover">
+        <img class="projectAsset" src="../assets/oldDFIO.png">
+        <div class="videoMessage">
+            <h1 class="welcomeTitle projectIntroText boxText">I need to redesign the application so that accustomed users don’t have to spend too much time re-learning how to use the application, but also so that new users will find it more intuitive and thus decrease training time.</h1>
+        </div>
+    </div>
+
+    <div class="introBox">
+        <div class="welcomeItem introItem">
+            <h1 class="welcomeTitle projectIntroText projectPageText">Design Process</h1>
+            <div class="introText projectPageText">
+                <p>Research, research, research.</p>
+
+                <p>I spent countless hours sitting with real users trying to understand the application inside and out, while identifying problems they experience while using it.</p>
+
+                <p>On top of re-skinning, I had to redesign how their page navigation worked. Here’s a look into my design process.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="projectSteps">
+        <img class="projectStepsImage" src="../assets/DFIO1.png">
+        <h1 class="welcomeTitle projectIntroText boxText stepText">
+        <p class="stepTextHeader">1</p>
+        <p>I researched and documented existing navigation patterns and analyzed which pattern would suit the application the best.</p></h1>
+    </div>
+
+    <div class="projectSteps v2">
+        <h1 class="welcomeTitle projectIntroText boxText stepTextv2">
+        <div class="stepTextHeader">2</div>
+        <p>I documented everything wrong with the existing patterns based on UX design principles and heuristics to make sure I was making the right decisions.</p></h1>
+        <img class="projectStepsImage" src="../assets/DFIO2.png">
+    </div>
+
+    <div class="projectSteps v2">
+        <img class="projectStepsImage" src="../assets/DFIO3.png">
+        <h1 class="welcomeTitle projectIntroText boxText stepTextv2">
+        <div class="stepTextHeader">3</div>
+        <p>I consolidated and presented my findings to my team and the DFIO team before presenting my final mockups. This answered any questions they may have had regarding my choices.</p></h1>
+    </div>
+
+    <div class="projectSteps overlay">
+        <img class="projectAsset" src="../assets/DFIO4.png">
+        <div class="videoMessage">
+            <h1 class="welcomeTitle projectIntroText boxText stepText">
+        <p class="stepTextHeader">4</p>
+        <p>I made high fidelity mockups for the re-skinning portion of the product and exported my assets to the dev team so they could start working before moving onto the user testing necessary for the navigation overhaul portion of the project.</p></h1>
+        </div>
+    </div>
+
+    <div class="projectSteps overlay">
+        <img class="projectAsset" src="../assets/DFIO5.png">
+        <div class="videoMessage">
+            <h1 class="welcomeTitle projectIntroText boxText stepTextv2">
+        <p class="stepTextHeader">5</p>
+        <p>I completely prototyped the navigation of the new system I created for user testing, so the user can test the new designs as if they were actually navigating through the application.</p></h1>
+        </div>
+    </div>
+
+    <div class="introBox">
+        <div class="welcomeItem introItem">
+            <h1 class="welcomeTitle projectIntroText projectPageText">Problems</h1>
+            <div class="introText projectPageText">
+                <p>My biggest roadblocks were definitely my limited knowledge on supply chain operations, as I was just an intern at Manhattan Associates. However, I was constantly sending emails, setting up meetings with the DFIO team, and getting clarifications with my team during design reviews, to make sure that my solution was the best it could be.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="introBox">
+        <div class="welcomeItem introItem">
+            <h1 class="welcomeTitle projectIntroText projectPageText">Outcome</h1>
+            <div class="introText projectPageText">
+                <p>This application is currently being developed for the 2020 release. I am working on several other applications within the DFIO suite to keep the screen consistent. </p>
+                <p>I definitely learned a ton about the nitty gritty parts of UX design that most people don’t see when they think about UX. There’s a reason for everything. People cannot question your decisions when you present them with strong rational. But be open to critique, and don’t be afraid to ask for help!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button nav start -->
+    <a href="../portfolio.html">
+        <div class="projectButton">Back to Projects</div>
+    </a>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="../scripts.js"></script>
+  </body>
+</html>

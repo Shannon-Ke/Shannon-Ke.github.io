@@ -3,6 +3,8 @@
 	--project-blue: #43B8FF;
 	--contact-purple: #B56BCB;
 	--project-blue-hover: #338CC3;
+	--project-mask: #000000;
+	--project-steps: #636363;
 }
 
 
@@ -10,6 +12,10 @@ body {
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 16px;
     line-height: 2em;
+}
+
+a {
+	text-decoration: none !important;
 }
 
 h1 {
@@ -233,19 +239,118 @@ h2 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-	color: black;
+	color: red;
 	margin: 5rem;
 	font-size: 36px;
 }
+
+.projectBox {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	height: 700px;
+	margin: 4rem auto;
+	border-radius: 8px;
+	text-align: center;
+	background-color: black;
+	position: relative;
+	overflow: hidden;
+}
+
+.projectAsset {
+	height: 800px;
+	opacity: 0.5;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+.videoMessage {position: absolute;}
+.disclaimer {
+	color: white;
+}
+.projectIntroText {
+	font-size: 30px;
+	text-align: left;
+}
+.projectPageText {
+	color: black;
+
+}
+.projectCover {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	height: 300px;
+	margin: 4rem auto;
+	border-radius: 8px;
+	text-align: center;
+	background-color: black;
+	position: relative;
+	overflow: hidden;
+}
+
+.boxText {
+	margin: 3rem;
+	line-height: 2em;
+}
+
+.projectSteps {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	height: auto;
+	margin: 4rem auto;
+	border-radius: 8px;
+	text-align: center;
+	background-color: var(--project-steps);
+	position: relative;
+	overflow: hidden;
+}
+
+.overlay {
+	background-color: black;
+}
+
+.stepText {
+	text-align: left;
+	margin: 1rem 3rem;
+	
+}
+
+.stepTextv2 {
+	text-align: left;
+	margin: 3rem;
+	flex-direction: row;
+	display: flex;
+}
+.stepTextHeader {
+	font-size: 72px;
+	margin-right: 3rem;
+}
+
+.v2 {
+	flex-direction: column;
+	align-items: center;
+}
+
+.projectStepsImage {
+	margin: 1rem;
+}
+
 
 @media (max-width: 1024px) {
 	
 	h1 { font-size: 36px; margin: 1rem;}
 	h2 { font-size: 24px; }
-	.welcomeBox, .contactBox {
+	.welcomeBox, .contactBox, .projectBox {
 		height:auto;
 	}
-	.welcomeItem {
+	.welcomeItem, .projectSteps {
 		flex-direction: column;
 		align-items: center;
 	}
@@ -304,4 +409,10 @@ h2 {
 	.introText {
 		margin:auto;
 	}
+	.projectCover {
+		height: auto;
+	}
 }
+
+
+
