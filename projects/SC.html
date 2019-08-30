@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Font Awesome Styles -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- w3 schools CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+
+    <title>Shannon Ke</title>
+    <link rel="shortcut icon" href="../assets/logo.ico" type="image/x-icon"/>
+  </head>
+
+  <body>
+      <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar" id="myNavbar">
+        <a href="../index.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
+        <a href="../portfolio.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PORTFOLIO</a>
+        <a href="../contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+        </a>
+      </div>
+
+      <!-- Navbar on small screens -->
+
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a href="../index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+        <a href="../portfolio.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+        <a href="../contact.html" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+      </div>
+
+    </div>
+
+    <!-- Welcome message area start -->
+    <div class="projectBox">
+        <div class="videoBlock">
+            <video class="projectAsset" autoplay muted loop id="myVideo">
+                      <source src="../assets/SC2020.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="videoMessage">
+            <h1 class="welcomeTitle">DC Network <br> Manager Dashboard</h1>
+            <div class="disclaimer">*All material belongs to Manhattan Associates, thus I have omitted high fidelity screenshots.</div>
+        </div>
+    </div>
+
+    <!-- Intro blurb area start -->
+    <div class="introBox">
+        <div class="welcomeItem introItem">
+            <h1 class="welcomeTitle projectIntroText projectPageText">Introduction</h1>
+            <div class="introText projectPageText">
+                <p>The network manager dashboard is intended to allow managers of multiple distribution centers (DCs) get a quick overview of their network health. Various metrics are present that represent the averages of performances across the DCs they manage. </p>
+                <p>If a certain metric is abnormally low, the manager can click on that metric to expand a data visualization that will show the score breakdown of its components and most importantly, how much each individual DC affected the average. The manager can then quickly pinpoint which DC has been causing the most problems with their network health and navigate to that DC’s management page.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="projectCover">
+        <img class="projectAsset" src="../assets/d3.png">
+        <div class="videoMessage">
+            <h1 class="welcomeTitle projectIntroText boxText">I need to come up with the best data visualizations that can adequately tell the story I’m trying to tell for each metric. </h1>
+        </div>
+    </div>
+
+    <div class="introBox">
+        <div class="welcomeItem introItem">
+            <h1 class="welcomeTitle projectIntroText projectPageText">Design Process</h1>
+            <div class="introText projectPageText">
+                <p>When these metrics were presented to me, I had no idea what they stood for. Thus, the beginning of my journey involved listening and learning. Then I was presented with the problem: given these metrics, what data visualizations would make the most sense to go with them?</p>
+
+                <p>I researched, delving through the D3.js library and brainstorming, until I finally found some charts befitting of the manager application.</p>
+
+                <p>Finally, I developed some of the visualizations using real data from csv’s, ensuring that the diagrams were highly responsive.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="projectSteps">
+        <img class="projectStepsImage" src="../assets/SC1.png">
+        <h1 class="welcomeTitle projectIntroText boxText stepText">
+        <p class="stepTextHeader">1</p>
+        <p>I brainstormed and white-boarded ideas, keeping in mind the advantages and disadvantages some data visualizations had over others.</p></h1>
+    </div>
+
+    <div class="projectSteps">
+        <h1 class="welcomeTitle projectIntroText boxText stepText">
+        <p class="stepTextHeader">2</p>
+        <p>Once content with my designs, instead of creating high fidelity mockups, I roughly sketched out my ideas since I would be the one doing the developing.</p></h1>
+        <img class="projectStepsImage" src="../assets/SC2.png">
+    </div>
+
+
+    <div class="projectSteps overlay">
+        <img class="projectAsset" src="../assets/SC3.png">
+        <div class="videoMessage">
+            <h1 class="welcomeTitle projectIntroText boxText stepText">
+        <p class="stepTextHeader">3</p>
+        <p>Once I had gone over the requirements with my team during design review sessions, I was ready to start developing. Everything was written in javascript, HTML, and CSS, and hosted on an express server.</p></h1>
+        </div>
+    </div>
+
+    <div class="projectSteps overlay">
+        <img class="projectAsset" src="../assets/SC4.png">
+        <div class="videoMessage">
+            <h1 class="welcomeTitle projectIntroText boxText stepTextv2">
+        <p class="stepTextHeader">4</p>
+        <p>The screens were presented as a new product idea for Manhattan’s 2020 release and were received positively.</p></h1>
+        </div>
+    </div>
+
+    <div class="introBox">
+        <div class="welcomeItem introItem">
+            <h1 class="welcomeTitle projectIntroText projectPageText">Problems</h1>
+            <div class="introText projectPageText">
+                <p>Prior to working on this project, I had never before used D3’s library, so it was quite a bit to take in. The product itself received some pushback when others questioned its usage, but I was able to resolve issues by presenting my reasoning for creating each visualization. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="introBox">
+        <div class="welcomeItem introItem">
+            <h1 class="welcomeTitle projectIntroText projectPageText">Outcome</h1>
+            <div class="introText projectPageText">
+                <p>Although this product may or may not be completed, I learned a ton while working on it. I learned the impact different data visualizations can have on presenting the data and how responsive data driven design is able to tell an appealing story. I learned that every decision has to have a justification, and that figuring out each justification is another step closer to zeroing in on the perfect solution. There were reasons why I chose a bar chart over a pie chart over a donut chart over a sunburst, and I enjoyed the process of figuring those reasons out.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button nav start -->
+    <a href="../portfolio.html">
+        <div class="projectButton">Back to Projects</div>
+    </a>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="../scripts.js"></script>
+  </body>
+</html>
