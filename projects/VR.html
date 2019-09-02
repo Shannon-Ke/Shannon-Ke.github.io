@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Font Awesome Styles -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- w3 schools CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+
+    <title>Shannon Ke</title>
+    <link rel="shortcut icon" href="../assets/logo.ico" type="image/x-icon"/>
+  </head>
+
+  <body>
+      <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar" id="myNavbar">
+        <a href="../index.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
+        <a href="../portfolio.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PORTFOLIO</a>
+        <a href="../contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+        </a>
+      </div>
+
+      <!-- Navbar on small screens -->
+
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a href="../index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+        <a href="../portfolio.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+        <a href="../contact.html" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+      </div>
+
+    </div>
+
+    <!-- Welcome message area start -->
+    <div class="projectBox">
+        <div class="videoBlock">
+            <video class="projectAsset" autoplay muted loop id="myVideo">
+                      <source src="../assets/VRVideo.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="videoMessage">
+            <h1 class="welcomeTitle">Warehouse VR/AR</h1>
+            <div class="disclaimer">*All material belongs to Manhattan Associates, thus I have omitted high fidelity screenshots.</div>
+        </div>
+    </div>
+
+    <!-- Intro blurb area start -->
+    <div class="introBox">
+        <div class="welcomeItem introItem">
+            <h1 class="welcomeTitle projectIntroText projectPageText">Introduction</h1>
+            <div class="introText projectPageText">
+                <p>The network manager dashboard is intended to allow managers of multiple distribution centers (DCs) get a quick overview of their network health. Various metrics are present that represent the averages of performances across the DCs they manage. </p>
+                <p>If a certain metric is abnormally low, the manager can click on that metric to expand a data visualization that will show the score breakdown of its components and most importantly, how much each individual DC affected the average. The manager can then quickly pinpoint which DC has been causing the most problems with their network health and navigate to that DC’s management page.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="projectCover">
+        <img class="projectAsset" src="../assets/AR.png">
+        <div class="videoMessage">
+            <h1 class="welcomeTitle projectIntroText boxText">I need to be able to test UIs designed for a futuristic technology that the market is not ready for yet.</h1>
+        </div>
+    </div>
+
+    <div class="introBox">
+        <div class="welcomeItem introItem">
+            <h1 class="welcomeTitle projectIntroText projectPageText">Design Process</h1>
+            <div class="introText projectPageText">
+                <p>I developed user scenarios based on existing processes in the warehouse. In the warehouse industry, efficiency and speed are some of the most important factors to success, so how do I increase efficiency? I needed to design UIs that would reduce time taken on menial tasks (such as looking up and down from clipboards) as well as reduce human error. </p>
+
+                <p>Once designed, the only way to test was to build everything virtually. I used the Unity game engine, HTC Vive VR hardware, coded in C#, 3D modeled in Maya and pulled other models from free resource bases on the internet. </p>
+
+                <p>Finally, with several scenarios ready, I presented and tested with other people in the company, from fellow UX teammates to the high up department chairs.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="projectSteps overlay">
+        <img class="projectAsset" src="../assets/VR1.png">
+        <div class="videoMessage">
+            <h1 class="welcomeTitle projectIntroText boxText stepTextv2">
+        <p class="stepTextHeader">1</p>
+        <p>I created multiple UI screens for the different scenarios and developed assets to be used in the Unity engine.</p></h1>
+        </div>
+    </div>
+
+    <div class="projectSteps">
+        <img class="projectStepsImage" src="../assets/VR2.png">
+        <h1 class="welcomeTitle projectIntroText boxText stepText">
+        <p class="stepTextHeader">2</p>
+        <p>I then set about developing the scenes in Unity. This was a big learning process for me, but I was able to complete everything I needed to thanks for Unity’s extensive documentation.</p></h1>
+    </div>
+
+
+    <div class="projectSteps overlay">
+        <img class="projectAsset" src="../assets/VR3.png">
+        <div class="videoMessage">
+            <h1 class="welcomeTitle projectIntroText boxText stepText">
+        <p class="stepTextHeader">3</p>
+        <p>I presented each scenario to many company higher ups, enlightening them on how Manhattan can pioneer AR technology in the future.</p></h1>
+        </div>
+    </div>
+
+    <div class="projectSteps overlay">
+        <img class="projectAsset" src="../assets/VR4.png">
+        <div class="videoMessage">
+            <h1 class="welcomeTitle projectIntroText boxText stepTextv2">
+        <p class="stepTextHeader">4</p>
+        <p>Finally, I extensively documented my work and my exact development processes for those who would create the actual product in the future.</p></h1>
+        </div>
+    </div>
+
+    <div class="introBox">
+        <div class="welcomeItem introItem">
+            <h1 class="welcomeTitle projectIntroText projectPageText">Problems</h1>
+            <div class="introText projectPageText">
+                <p>Considering that Manhattan didn’t really have the technology I was really testing, Unity was a pretty good solution. However, VR posed a problem for some people while they were testing my program. Within a VR setting, moving and walking can be disorienting, so most movement was confined to teleportation. Such disconnects with reality were present, but given we were working with VR and not true AR, these problems were unavoidable. </p>
+                <p>Overall, I tried to make the experience as “real” as possible, with realistic models and height constraints. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="introBox">
+        <div class="welcomeItem introItem">
+            <h1 class="welcomeTitle projectIntroText projectPageText">Outcome</h1>
+            <div class="introText projectPageText">
+                <p>The demo was received positively, and although there will be no more development on it as of now, it definitely opened the eyes of many to how Manhattan can be at the forefront of AR technology when the time comes.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button nav start -->
+    <a href="../portfolio.html">
+        <div class="projectButton">Back to Projects</div>
+    </a>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="../scripts.js"></script>
+  </body>
+</html>
